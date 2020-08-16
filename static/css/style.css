@@ -1,19 +1,31 @@
-html,
-body {
-	height: 100%;
-	margin: 0;
+@media (min-width: 640px) {
+	html,
+	body {
+		height: 100%;
+		margin: 0;
+	}
+
+	footer {
+		height: 50px;
+	}
+
+	/* Trick */
+	body {
+		display: flex;
+		flex-direction: column;
+	}
+
+	footer {
+		margin-top: auto;
+	}
 }
 
-footer {
-	height: 50px;
+iframe {
+	max-width: 100%;
+	height: calc(100vh - 300px);
 }
-
-/* Trick */
-body {
-	display: flex;
-	flex-direction: column;
-}
-
-footer {
-	margin-top: auto;
+object {
+	width: 100%;
+	max-height: 100%;
+	height: calc(100vh - 500px);
 }
