@@ -16,7 +16,7 @@ Se puede encontrar en el directorio static/docs en formato .pdf y docx
 
 ## Licencia 📄
 
-Este proyecto está bajo la Licencia Apache - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+Este proyecto está bajo la Licencia Apache - mira el archivo [LICENSE.md](LICENSE) para detalles
 
 ## Recursos externos 🗃
 
